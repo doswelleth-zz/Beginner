@@ -86,7 +86,7 @@ class BitcoinViewController: UIViewController {
             } catch let error {
                 print("ERROR:", error)
             }
-            }.resume()
+        }.resume()
     }
     
     

@@ -153,7 +153,7 @@ class HomeTableViewController: UITableViewController {
         case 7:
             switch indexPath.row {
             case 0,0:
-                showBitcoinCore(0,0)
+                showBitGo(0,0)
             case 1,1:
                 showBreadWallet(1,1)
             case 1,2:
@@ -544,8 +544,8 @@ class HomeTableViewController: UITableViewController {
     }
     
     // Section 7
-    func showBitcoinCoreWallet(_ section: Int, _ indexPath: Int) {
-        if let url = URL(string: "https://bitcoin.org/en/wallets/desktop/mac/bitcoincore/") {
+    func showBitGo(_ section: Int, _ indexPath: Int) {
+        if let url = URL(string: "https://itunes.apple.com/us/app/bitgo-wallet/id1032825043?mt=8") {
             let configuration = SFSafariViewController.Configuration()
             configuration.barCollapsingEnabled = false
             
